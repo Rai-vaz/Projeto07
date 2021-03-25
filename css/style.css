@@ -1,0 +1,67 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+.sect1{
+    position: relative;
+    min-height: 600px;
+}
+
+.form-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 15px 2%;
+    width: 100%;
+    max-width: 700px;
+}
+
+.btn:hover{
+    background: rgb(128, 114, 114) !important;
+}
+
+.custon-title{
+    font-size: 28px;
+}
+
+.col p{
+    font-size: 20px;
+}
+
+.flow-text{
+    color: rgb(68, 41, 41);
+}
+
+.vitrine{
+    min-height: 458px;
+}
+
+#col2-equipe{
+    position: relative;
+    top: 78px;
+}
+
+.links{
+    display: inline-block;
+}
+
+.links:last-of-type{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 600px){
+    #col2-equipe{
+        top: 0;
+    }
+}
